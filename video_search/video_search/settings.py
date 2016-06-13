@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'video_search.wsgi.application'
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'video_db',                      
-            'USER': 'david_de_gea',
-            'PASSWORD': '123456123456',
-            'HOST': '127.0.0.1',
-            'PORT': '8000',
+            'NAME': 'videodata',                      
+            'USER': 'alankar63',
+            'PASSWORD': 'juanmata',
+            'HOST': 'localhost',
+            'PORT': '',
                                                               }
         }
 

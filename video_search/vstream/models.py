@@ -1,8 +1,8 @@
 from django.db import models
 
 
-class video_info(models.Model):
-    name = models.CharField(max_length=30)
-    url = models.CharField(max_length=30)
-    description = models.CharField(max_length=500)
+class Videoinfo(models.Model):
+    name = models.TextField(max_length=100)
+    url = models.TextField(max_length=100)
+    description = models.TextField(max_length=500,null=True)
     videodate = models.DateField(null=True)
