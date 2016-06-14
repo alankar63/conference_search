@@ -80,7 +80,7 @@ DATABASES = {
             'ENGINE': 'django.db.backends.postgresql',
             'NAME': 'videodata',                      
             'USER': 'alankar63',
-            'PASSWORD': 'juanmata',
+            'PASSWORD': '123456123456',
             'HOST': 'localhost',
             'PORT': '',
                                                               }
